@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board.io</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+
+    <h1>Sign Board</h1>
+
+    <div id="toolbar">
+        <button class="toolItem" id="pencilbtn">Pencil</button>
+        <button class="toolItem" id="erasorbtn">Erasor</button>
+        
+        <input class="toolItem" type="color" id="colorbtn" value="#000000">
+         Width : <input class="toolItem" id="brushSize" min="1" max="50" type="range">
+    </div>
+    
+    <canvas id="drawingCanvas"></canvas>
+    <div id="toolbar">
+        <button class="toolItem" id="undobtn">Undo</button>
+        <button class="toolItem" id="redobtn">Redo</button>
+        <button class="toolItem clear" id="clearbtn">Clear All</button>
+        <button class="toolItem" id="savebtn">Save</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
